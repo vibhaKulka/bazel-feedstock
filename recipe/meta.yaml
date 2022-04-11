@@ -29,6 +29,8 @@ requirements:
     - libstdcxx-ng  {{ libstdcxx }}                # [x86_64 and c_compiler_version == "7.2.*"]
     - patch  # [unix]
     - {{ cdt('java-1.8.0-openjdk-devel') }}  # [linux]
+    - {{ cdt('java-1.8.0-openjdk-headless') }}
+    - {{ cdt('java-1.8.0-openjdk') }}        
     - {{ cdt('zip') }}  # [linux]
   host:
     - unzip
