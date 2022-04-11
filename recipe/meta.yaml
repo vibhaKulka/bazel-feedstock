@@ -12,6 +12,8 @@ source:
     - 0101-Add-support-for-ppc64le-embedded-jdk.patch
     # 03xx - patch temporary to fix a problem that when fixed upstream can be removed
     - 0301-Fixed-build-Patch-from-https-github.com-bazelbuild-b.patch
+    # - 0001-fix-memory-issue.patch
+    - 0001-fix-s390x-memory-issue.patch
 
 build:
   number: 4
